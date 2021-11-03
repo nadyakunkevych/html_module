@@ -1,0 +1,38 @@
+.container-fluid {
+    background: #0F2438;
+
+}
+
+.navbar-brands {
+    display: flex;
+    position: relative;
+    left: 350px;
+
+}
+
+.navbar-brand img {
+    display: flex;
+    position: relative;
+    left: 90px;
+}
+
+.nav-item {
+    display: flex;
+    margin-left: 50px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.whatsapp {
+    background-color: #E1EFD0;
+    width: 230px;
+    height: 40px;
+}
+
+.phone p {
+    text-decoration: underline;
+}

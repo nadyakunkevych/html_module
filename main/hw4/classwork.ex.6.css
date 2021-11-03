@@ -1,0 +1,51 @@
+.container {
+    width: 1000px;
+    height: 800px;
+    background: silver;
+    padding: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.block1 {
+    display: flex;
+    text-align: center;
+
+}
+.block_home {
+    flex-direction: row;
+    background: royalblue;
+    width: 200px;
+    height: 250px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.block_about {
+    flex-direction: row;
+    background: royalblue;
+    width: 200px;
+    height: 250px;
+    padding: 5px;
+    margin: 5px;
+}
+.block2 {
+    width: 430px;
+    height: 250px;
+    background: royalblue;
+    margin-left: 5px;
+    text-align: center;
+}
+.block3 {
+    display: flex;
+    text-align: center;
+}
+.shishkabobs, .bbq, .summer {
+    flex-direction: row;
+    background: darkblue;
+    width: 127px;
+    height: 150px;
+    padding: 5px;
+    margin: 5px;
+}

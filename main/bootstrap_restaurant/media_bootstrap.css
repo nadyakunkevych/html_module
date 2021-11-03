@@ -1,0 +1,132 @@
+@media screen and (max-width: 360px) {
+    .navbar-nav, .contact_menu, .contact, .button_order, .display-1 p::after, .display-1 p::before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .wrap_button {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+    }
+}
+
+
+
+@media screen and (max-width: 360px) {
+    .mobile_button {
+        width: 30.88px;
+        height: 3.25px;
+        background-color: #FF7400;
+        position: relative;
+        left: 300px;
+        top: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 360px) {
+    .menu {
+        display: flex;
+        position: relative;
+        right: 140px;
+        bottom: 40px;
+        width: 21.77px;
+        height: 21.77px;
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 120px;
+        bottom: 300px;
+
+    }
+}
+
+
+
+@media screen and (max-width: 360px) {
+    h2 {
+
+
+        height: 46px;
+        font-size: 30px;
+        line-height: 34px;
+        color: #D67E35;
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+    h1 {
+
+        color: #D67E35;
+        position: relative;
+        margin-top: 100px;
+        left: 25px;
+        top: 337px;
+        font-size: 40px;
+
+
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .display-1 p {
+
+        width: 141px;
+        height: 20px;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+        position: relative;
+        right: 70px;
+
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .view_menu {
+        display: flex;
+        margin-top: 70px;
+
+
+
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .view_menu {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .blocks {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .d-inline-block {
+        position: relative;
+        bottom: 310px;
+        right: 140px;
+
+
+    }
+}
+

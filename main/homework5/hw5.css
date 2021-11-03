@@ -1,0 +1,65 @@
+.container {
+    background-color: ivory;
+    width: 1300px;
+    height: 1500px;
+}
+.header {
+    width: 1300px;
+    height: 80px;
+    background: goldenrod;
+    text-align: center;
+    font-size: xx-large;
+}
+.blocks {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    font-size: x-large;
+
+}
+.width100 {
+    width: 400px;
+
+}
+.height200 {
+  height: 200px;
+}
+
+  .bg-lemon {
+      background: lemonchiffon;
+  }
+
+  .margin10{
+      margin-right: 10px;
+  }
+
+  .image-blocks {
+      display: flex;
+      margin-top: 10px;
+  }
+
+  .im_wid {
+      width: 650px;
+  }
+
+  .im_height {
+      height: 550px;
+
+  }
+  .im_color {
+      background-color: palegoldenrod;
+
+  }
+
+  .image-size {
+      width: 530px;
+      height: 540px;
+      padding-left: 50px;
+      padding-top: 5px;
+
+  }
+
+  .href {
+    text-align: center;
+  }
+  p:hover {background-color: goldenrod}

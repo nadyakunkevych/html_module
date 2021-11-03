@@ -1,0 +1,189 @@
+.cover {
+    background: url("images/hero image.png");
+    height: 100vh;
+
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    top: 20px;
+
+}
+
+.menu {
+    margin-left: 165px;
+    display: flex;
+    margin-right: 250px;
+
+
+
+
+
+}
+
+.nav-link {
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+
+.navbar-nav img {
+    width: 20px;
+    height: 17px;
+    margin-top: 10px;
+
+
+}
+
+.navbar-nav::after{
+    content:"";
+    height: 51px;
+    border: 1px solid #FFFFFF;
+    margin-left: 10px;
+
+
+}
+
+.contact_menu img {
+    margin-left: 30px;
+}
+
+.contact {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    position: relative;
+
+}
+
+.contact_menu p {
+    width: 154px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    position: relative;
+    right: 100px;
+
+}
+
+.button_order {
+
+    height: 47px;
+    background-color: #FF7400;
+    width: fit-content;
+    position: relative;
+   right: 50px;
+
+}
+
+.btn {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+.display-2 {
+
+    position: relative;
+    margin-left: 150px;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+    top: 400px;
+
+}
+
+.display-1 {
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+    position: relative;
+    margin-left: 120px;
+    top: 400px;
+
+}
+
+ p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+     margin-left: 150px;
+
+}
+
+ .display-1 p::before {
+     content: "";
+     width: 61px;
+     height: 2px;
+     background-color: #C4C4C4;
+     display: flex;
+     position: relative;
+     right: 70px;
+     top: 15px;
+ }
+
+     .display-1 p::after {
+         content:"";
+         width: 61px;
+         height: 2px;
+         background-color: #C4C4C4;
+         display: flex;
+         position: relative;
+         left: 170px;
+         bottom: 10px;
+     }
+
+
+
+.view_menu {
+    position: absolute;
+    width: 137px;
+    height: 47px;
+    left: 280px;
+    top: 700px;
+    background: #FF7400;
+}
+
+
+
+.blocks {
+
+    flex-direction: row;
+    column-gap: 25px;
+    position: relative;
+    left: 140px;
+    top: 580px;
+    display: flex;
+    text-align: center;
+
+}
+
+.d-inline-block {
+
+    height: 328px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-text {
+    font-size: 26px;
+    line-height: 30px;
+    width: 376px;
+    height: 85px;
+    color: #656363;
+}
+
+h5 {
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+    position: relative;
+}
+
+

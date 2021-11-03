@@ -1,0 +1,33 @@
+@media screen and (max-width: 1500px) {
+    .container {
+        background-color: goldenrod;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        background-color: yellow;
+    }
+}
+@media (orientation: landscape) {
+    .title {
+        font-size: xxx-large;
+    }
+}
+
+.circle_im_2::before {
+    content:"sold out";
+    font-size: larger;
+    width: 20px;
+    height: 10px;
+    background-color: yellow;
+
+}
+
+@media screen and (max-width: 360px) {
+    .circles {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

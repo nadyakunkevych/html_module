@@ -1,0 +1,33 @@
+.container {
+    width: 700px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+#widgets {
+    width: 500px;
+    height: 300px;
+    background: blue;
+    text-align: center;
+
+}
+
+.box {
+    width: 157px;
+    height: 150px;
+    display: inline-block;
+    margin-block: 10px;
+    text-align: center;
+
+}
+.big {
+    background: darkblue;
+    margin-right: 10px;
+}
+#contact {
+    width: 500px;
+    height: 300px;
+    background: blue;
+    text-align: center;
+}
+
