@@ -347,3 +347,59 @@
     line-height: 28.13px;
     font-family: Roboto;
 }
+
+.line {
+    content:"";
+    width: 1920px;
+    height: 9px;
+    background-color: #F5F5F5;
+    margin-top: 30px;
+}
+
+.data-box {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: space-around;
+
+
+}
+
+.box-content {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.black-box {
+    width: 106px;
+    height: 22px;
+    background-color: #0C1A2A;
+    border-radius: 4px;
+}
+
+.black-box > span {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Roboto;
+    color: #FFFFFF;
+
+}
+
+.box-content p1 {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #005BB9;
+    text-decoration: underline;
+}
+.box-content p2 {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 20px;
+    color: #242424;
+
+;
+}
