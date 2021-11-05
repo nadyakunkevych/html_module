@@ -363,17 +363,12 @@ body > div > div.bucket.container-fluid > div > div > button{
      bottom: 70px;
 }
 
-.block-item p2 {
-    position: relative;
-    bottom: 46px;
-}
 
 .block-item button {
     width: 160px;
     height: 49px;
     border-radius: 6px;
-    position: relative;
-    right: 140px;
+
 
 }
 
@@ -401,12 +396,17 @@ body > div > div.bucket.container-fluid > div > div > button{
 .block-item p2 > span {
     text-decoration: underline;
     color: #005BB9;
-}
-.block-item h3 > span {
-    color: #FFB800;
-    /*position: relative;*/
-    /*bottom: 35px;*/
 
+}
+
+.block-item p2 {
+    position: relative;
+    bottom: 40px;
+}
+.block-item h4 > span {
+    color: #FFB800;
+    height: 26px;
+    width: 72px;
 
 }
 .block-item p3 > span {
@@ -428,4 +428,11 @@ body > div > div.bucket.container-fluid > div > div > button{
 
 .btn-primary {
     margin-left: 50px;
+}
+
+
+.button-bottom {
+    display: flex;
+    justify-content: center;
+
 }
