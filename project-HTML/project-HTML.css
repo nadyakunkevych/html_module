@@ -158,7 +158,6 @@
 
 .phone-number > h6 {
     font-family: Roboto;
-    font-style: Medium;
     font-size: 20px;
     font-weight: bold;
     line-height: 23px;
@@ -340,12 +339,14 @@
 .header-news {
     display: flex;
     margin-left: 115px;
+
 }
 
 .header-news > h6 {
     font-size: 24px;
     line-height: 28.13px;
     font-family: Roboto;
+
 }
 
 .line {
@@ -357,9 +358,20 @@
 }
 
 
+
+
+.box-content::before {
+    content:"";
+    background-color: #0C1A2A;
+    width: 1px;
+    height: 20px;
+    display: flex;
+
+}
+
 .main-box {
     display: flex;
-    padding: 30px;
+
 }
 .data-box {
     display: flex;
@@ -374,6 +386,8 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+
+
 }
 
 .black-box {
@@ -404,5 +418,70 @@
     line-height: 20px;
     color: #242424;
 
-;
+}
+
+.footer {
+    width: 1920px;
+    height: 408px;
+    background-color: #0C1A2A;
+    margin-top: 300px;
+
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: space-around;
+
+}
+
+.footer-column p >span {
+    color: #858CAB;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer-column p5 {
+    font-size: 18px;
+    line-height: 21px;
+    font-family: Roboto;
+    color: #FFFFFF;
+
+}
+
+.footer-column > h6 {
+    color: #868DAC;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.footer-column > p {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Roboto;
+    color: #FFFFFF;
+}
+
+.subscription-button {
+    width: 470px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #203246;
+
+}
+
+.btn-outline {
+    width: 177px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #005BB9;
+
+}
+
+.btn-outline > span {
+    color: #FFFFFF;
 }
