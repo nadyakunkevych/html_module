@@ -436,3 +436,8 @@ body > div > div.bucket.container-fluid > div > div > button{
     justify-content: center;
 
 }
+
+.news {
+    display: flex;
+    margin-left: 80px;
+}
