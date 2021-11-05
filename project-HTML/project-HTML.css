@@ -60,6 +60,131 @@
 
 }
 
+.subheader {
+    width: 1920px;
+    height: 196px;
+    background-color: #FFFFFF;
+
+}
+
+.subheader-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+
+
+.logo-items {
+    display: flex;
+    column-gap: 5px;
+}
+
+.logo-items > img {
+    height: 71px;
+    width: 66px;
+
+}
+.logo-items h6 {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #0F2438;
+}
+
+.logo-items p {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Roboto;
+    color: #0F2438
+}
+
+.time {
+    display: flex;
+    column-gap: 5px;
+}
+
+.time p {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Roboto;
+    color: #0F2438;
+}
+
+.place {
+    display: flex;
+    column-gap: 5px;
+}
+
+.place p {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Roboto;
+    color: #0F2438;
+
+}
+
+.whatsapp {
+    width: 204px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #E1EFD0;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+.whatsapp-icons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    margin-top: 5px;
+}
+
+.whatsapp-icons p {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Rubic;
+    color: #000000;
+}
+
+.whatsapp-icons > img {
+    width: 12px;
+    height: 12px;
+}
+
+.phone-number > h6 {
+    font-family: Roboto;
+    font-style: Medium;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 23px;
+    color: #0F2438;
+}
+
+.phone-number > p {
+    font-family: Roboto;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F2438;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
