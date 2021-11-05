@@ -356,12 +356,15 @@
     margin-top: 30px;
 }
 
+
+.main-box {
+    display: flex;
+    padding: 30px;
+}
 .data-box {
     display: flex;
     flex-direction: row;
     column-gap: 20px;
-    justify-content: space-around;
-
 
 }
 
