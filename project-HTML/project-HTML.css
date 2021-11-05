@@ -485,3 +485,30 @@
 .btn-outline > span {
     color: #FFFFFF;
 }
+
+.pay-by-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.pay-by-card > p {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.pay-by-card > img {
+    width: 114px;
+    height: 45px;
+}
+
+
+.soc-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
