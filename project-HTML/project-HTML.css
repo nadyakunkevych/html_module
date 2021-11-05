@@ -331,7 +331,6 @@ body > div > div.bucket.container-fluid > div > div > button{
     display: flex;
     margin-top: 10px;
     margin-left: 60px;
-
 }
 
 .btn-outline-primary {
@@ -349,95 +348,91 @@ body > div > div.bucket.container-fluid > div > div > button{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 20px;
+
+
 }
 
-.block-item p {
-    margin-top: 70px;
-    position: relative;
-    right: 50px;
-    color: #B0B0B0;
-}
-
- .block-item h4 {
-    position: relative;
-     bottom: 70px;
+.block-item {
+    display: flex;
+    flex-direction: column;
 }
 
 
-.block-item button {
+.block-item-stars {
+    display: flex;
+}
+
+.block-item-stars > img {
+    width: 16px;
+    height: 16px;
+    border-radius: 0.5px;
+}
+.block-item-stars > span {
+    margin-right: 10px;
+    color: orange;
+}
+
+.block-item-title > h4 {
+    margin-top: 20px;
+
+}
+.test-price > span {
+    color: #005BB9;
+    text-decoration: underline;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+
+.block-item-btn {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.block-item-btn > button {
     width: 160px;
     height: 49px;
-    border-radius: 6px;
-
+    margin-left: 0px;
 
 }
 
-.navbar-brand > span {
-    color: white;
-}
 
-.nav-link > span {
-    color: white;
-}
-
-.navbar-brand > span {
-    color: white;
-}
-
-.phone > span {
-    text-decoration: underline;
-}
-
-
-.block-item p > span {
-    color: #FFB800;
-}
-
-.block-item p2 > span {
-    text-decoration: underline;
+.block-item-btn > img {
+    width: 21px;
+    height: 18px;
     color: #005BB9;
 
 }
 
-.block-item p2 {
-    position: relative;
-    bottom: 40px;
-}
-.block-item h4 > span {
+.test-price > span2 {
     color: #FFB800;
-    height: 26px;
-    width: 72px;
+    font-family: Roboto;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+
 
 }
-.block-item p3 > span {
-    text-decoration: line-through;
+.test-price > span3 {
     color: #C2C5DA;
-    position: relative;
-    bottom: 50px;
-    left: 100px;
-}
-
-
-.button {
-    width: 160px;
-    height: 49px;
-    border-radius: 6px;
-    background-color: #005BB9;
+    text-decoration: line-through;
+    font-family: Roboto;
+    line-height: 19px;
+    font-size: 16px;
 
 }
 
-.btn-primary {
-    margin-left: 50px;
-}
-
-
-.button-bottom {
+.product-items-blocks-second {
     display: flex;
-    justify-content: center;
-
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
-.news {
-    display: flex;
-    margin-left: 80px;
-}
+
+
+
