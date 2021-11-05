@@ -174,7 +174,52 @@
     text-decoration: underline;
 }
 
+.subheader-two {
+    display: flex;
+    flex-direction: row;
+}
 
+.subheader-buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+
+}
+
+.bootstrap-buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin-left: 130px;
+
+}
+.btn-primary {
+    width: 164px;
+    height: 53px;
+    border-radius: 6px;
+
+}
+
+.search {
+    width: 549px;
+    height: 53px;
+    border-radius: 6px;
+
+}
+
+.btn-outline-secondary {
+    width: 101px;
+    height: 53px;
+    border-radius: 6px;
+
+}
+
+.subheader-icons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-left: 530px;
+}
 
 
 
