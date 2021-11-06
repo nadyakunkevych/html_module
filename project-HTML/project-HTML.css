@@ -166,7 +166,6 @@
 
 .phone-number > p {
     font-family: Roboto;
-    font-style: Medium;
     font-size: 12px;
     line-height: 14px;
     color: #0F2438;
@@ -431,13 +430,17 @@
 .footer-items {
     display: flex;
     flex-direction: row;
-    column-gap: 30px;
+    column-gap: 10px;
     justify-content: space-around;
+
+
 }
 
 
 .footer-column {
     margin-top: 30px;
+
+
 }
 .footer-column p >span {
     color: #858CAB;
@@ -469,26 +472,6 @@
     color: #FFFFFF;
 }
 
-.subscription-button {
-    width: 470px;
-    height: 40px;
-    border-radius: 6px;
-    background-color: #203246;
-
-}
-
-.btn-outline {
-    width: 177px;
-    height: 40px;
-    border-radius: 6px;
-    background-color: #005BB9;
-
-}
-
-.btn-outline > span {
-    color: #FFFFFF;
-}
-
 .pay-by-card {
     display: flex;
     flex-direction: column;
@@ -507,11 +490,42 @@
     height: 45px;
 }
 
+.newsletter {
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    position: relative;
+    bottom: 140px;
+}
+
+
+.subscription-button {
+    width: 470px;
+    height: 40px;
+    border-radius: 6px;
+
+}
+
+.btn-outline {
+    width: 177px;
+    height: 40px;
+    border-radius: 6px;
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+
+}
 
 .soc-icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 30px;
+    column-gap: 40px;
+    position: relative;
+    bottom: 100px;
+    left: 350px;
+
 }
 
