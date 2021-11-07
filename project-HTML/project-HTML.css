@@ -839,3 +839,13 @@
     display:none ;
 }
 
+.block-item {
+    position: relative;
+}
+.block-item-img-sale{
+    position: absolute;
+}
+.box-content{
+    margin-left: 20px;
+}
+
